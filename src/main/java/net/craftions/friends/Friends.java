@@ -8,7 +8,6 @@ public final class Friends extends Plugin {
     public void onEnable() {
         // Plugin startup logic
     }
-
     @Override
     public void onDisable() {
         // Plugin shutdown logic
