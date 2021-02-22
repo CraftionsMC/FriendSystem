@@ -13,7 +13,7 @@ public final class Friends extends Plugin {
     public void onEnable() {
         try {
             Config.loadConfig();
-            MySQL.init();
+            MySQL.connect();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException throwables) {
